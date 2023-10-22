@@ -1,5 +1,3 @@
-# samblog
-Currnet URL: https://ohuro.me/
-Feel free to submit PR if there is anything wrong in my blog. I'll appreciate any advices! 😊
+# 憶浴
 
-The blog posts are in `content/posts`
+helloboyxxx.github.io/meandering
