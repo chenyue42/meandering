@@ -1,38 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Sam&#39;s Meanderings</title>
-    <link>https://ohuro.me/tags/</link>
-    <description>Recent content in Tags on Sam&#39;s Meanderings</description>
+    <title>Tags on 憶浴</title>
+    <link>helloboyxxx.github.io/meandering/tags/</link>
+    <description>Recent content in Tags on 憶浴</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 10 Oct 2023 22:55:46 -0500</lastBuildDate><atom:link href="https://ohuro.me/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Combinatorics</title>
-      <link>https://ohuro.me/tags/combinatorics/</link>
-      <pubDate>Tue, 10 Oct 2023 22:55:46 -0500</pubDate>
-      
-      <guid>https://ohuro.me/tags/combinatorics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CS 374</title>
-      <link>https://ohuro.me/tags/cs-374/</link>
-      <pubDate>Wed, 30 Aug 2023 13:10:06 -0500</pubDate>
-      
-      <guid>https://ohuro.me/tags/cs-374/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MATH 417 Abstract Algebra</title>
-      <link>https://ohuro.me/tags/math-417-abstract-algebra/</link>
-      <pubDate>Mon, 28 Aug 2023 15:50:48 -0500</pubDate>
-      
-      <guid>https://ohuro.me/tags/math-417-abstract-algebra/</guid>
-      <description></description>
-    </item>
-    
+    <language>zh</language><atom:link href="helloboyxxx.github.io/meandering/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
