@@ -3,3 +3,17 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
+body {
+  font-family: "LXGW WenKai Screen", sans-serif !important;
+}
+
+code {
+  font-family: "LXGW WenKai Screen", sans-serif;
+}
+
+/* check themes/PaperMod/assets/css/core/theme-vars.css for more */
+:root {
+  --theme: #fdf8ed;   /* this color is for content background */
+  --code-bg: #fdf8ed; /* papermod uses this color for front page background */ 
+  --entry: #fff3c6;
+}
