@@ -1,45 +1,35 @@
-baseURL = 'https://ohuro.me/'
+baseURL = 'helloboyxxx.github.io/meandering/'
 
-languageCode = 'en-us'
-title = "Sam's Meanderings"
+languageCode = 'zh'
+defaultContentLanguage = 'zh'
+title = "憶浴"
 theme = 'PaperMod'
 
-
 [params.homeInfoParams]
-Title = "Stay 😎. Be 😊. Keep 📚"
-Content = 'おふろ🛁 => Bathing in the ocean of knowledge'
-
-[[params.socialIcons]]
-name = "github"
-url = "https://github.com/helloboyxxx"
+Title = '太陽強烈 水波溫柔'
+Content = '洗洗睡啦'
 
 [[params.socialIcons]]
 name = "email"
-url = "mailto:yuec12@illinois.edu"
+url = "mailto:helloboy3x@gmail.com"
 
 [[menu.main]]
-name = "Archive"
+name = "碎片"
 url = "archives"
-weight = 5
+weight = 10
 
 [[menu.main]]
-name = "Search"
+name = "搜尋"
 url = "search/"
-weight = 10
+weight = 20
 
 [[menu.main]]
-name = "Tags"
-url = "tags/"
-weight = 10
-
+name = "這誰,這啥"
+url = "about"
+weight = 30
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
-
-
-[params]
-ShowCodeCopyButtons = true
-
 
 [markup.goldmark.renderer]
 unsafe= true

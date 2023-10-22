@@ -1,8 +1,6 @@
 ---
-title: "Search" # in any language you want
-layout: "search" # is necessary
-# url: "/archive"
-# description: "Description for Search"
+title: "記憶搜刮術"
+layout: "search"
 summary: "search"
-placeholder: "I bet there's something in my mind..."
+placeholder: "腦子裡應該有點什麼吧"
 ---
