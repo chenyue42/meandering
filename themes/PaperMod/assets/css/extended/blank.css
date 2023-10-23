@@ -17,3 +17,15 @@ code {
   --code-bg: #fdf8ed; /* papermod uses this color for front page background */ 
   --entry: #fff3c6;
 }
+
+.dark {
+  --theme: rgb(29, 30, 32);
+  --entry: rgb(46, 46, 51);
+  --primary: #57c8da;
+  --secondary: #086776;
+  --tertiary: rgb(65, 66, 68);
+  --content: #086776;
+  --hljs-bg: rgb(46, 46, 51);
+  --code-bg: rgb(55, 56, 62);
+  --border: rgb(51, 51, 51);
+}
