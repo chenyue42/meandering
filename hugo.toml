@@ -2,7 +2,7 @@ baseURL = 'https://helloboyxxx.github.io/meandering/'
 
 languageCode = 'zh'
 defaultContentLanguage = 'zh'
-title = "憶浴"
+title = "浴憶"
 theme = 'PaperMod'
 
 [params.homeInfoParams]
