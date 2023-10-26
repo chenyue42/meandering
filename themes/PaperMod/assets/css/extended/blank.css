@@ -4,11 +4,15 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
 body {
-  font-family: "LXGW WenKai Screen", sans-serif !important;
+  /* font-family: "LXGW WenKai Screen", sans-serif !important; */
+  font-family: "LXGW WenKai", sans-serif !important;
+  font-weight:'400';
 }
 
 code {
-  font-family: "LXGW WenKai Screen", sans-serif;
+  /* font-family: "LXGW WenKai Screen", sans-serif; */
+  font-family: "LXGW WenKai", sans-serif;
+  font-weight:'400';
 }
 
 /* check themes/PaperMod/assets/css/core/theme-vars.css for more */
