@@ -23,13 +23,48 @@ code {
 }
 
 .dark {
+  --theme: rgb(15, 30, 34);
+  --entry: rgb(37, 51, 52);
+  --primary: #cbc876;
+  --secondary: #91b374;
+  --tertiary: rgb(65, 66, 68);
+  --content: rgb(177, 195, 165);
+  --hljs-bg: rgb(46, 46, 51);
+  --code-bg: #1f1f1f;
+  --border: rgb(51, 51, 51);
+}
+
+.entry-content {
+  margin: 8px 0;
+  /* color: var(--secondary); */
+  color: var(--content);
+  font-size: 14px;
+  line-height: 1.6;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.sub-secondary {
+  margin: 8px 0;
+  color: var(--secondary);
+  font-size: 16px;
+  line-height: 1.6;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+/* .dark {
   --theme: #031d22;
   --entry: #0c505b;
   --primary: #3eaabb;
   --secondary: #c1af68;
   --tertiary: rgb(65, 66, 68);
-  --content: #c5b889;
+  --content: #e0b4a9;
   --hljs-bg: rgb(46, 46, 51);
   --code-bg: #031d22;
   --border: rgb(51, 51, 51);
-}
+} */
