@@ -1,256 +1,25 @@
-<!DOCTYPE html>
-<html lang="zh" dir="auto">
-
-<head><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
-<title>Posts | 浴憶</title>
-<meta name="keywords" content="">
-<meta name="description" content="Posts - 浴憶">
-<meta name="author" content="">
-<link rel="canonical" href="https://lostnatsu.com/posts/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.0b3b1bb04bf079e0be0704d1784ec66adf0ea179a754fae8e1f80b72f3d4ee0d.css" integrity="sha256-CzsbsEvweeC&#43;BwTReE7Gat8OoXmnVPro4fgLcvPU7g0=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://lostnatsu.com/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://lostnatsu.com/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://lostnatsu.com/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://lostnatsu.com/apple-touch-icon.png">
-<link rel="mask-icon" href="https://lostnatsu.com/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://lostnatsu.com/posts/index.xml">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
-    </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --hljs-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
-</noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css" />
-<style>
-  body {
-    font-family: "LXGW WenKai", sans-serif;
-    font-weight: normal;
-  }
-</style><meta property="og:title" content="Posts" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://lostnatsu.com/posts/" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content=""/>
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://lostnatsu.com/posts/"
-    }
-  ]
-}
-</script>
-</head>
-
-<body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="https://lostnatsu.com/" accesskey="h" title="浴憶 (Alt + H)">浴憶</a>
-            <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
-            </div>
-        </div>
-        <ul id="menu">
-            <li>
-                <a href="https://lostnatsu.com/archives" title="碎片">
-                    <span>碎片</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://lostnatsu.com/search/" title="搜尋">
-                    <span>搜尋</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://lostnatsu.com/about" title="這誰,這啥">
-                    <span>這誰,這啥</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<main class="main"> 
-<header class="page-header">
-  <h1>
-    Posts
-  </h1>
-</header>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>夏天冰冷的水
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Water Memories, Cara Romero 有一种被深邃的自然包围的感觉。神秘冰冷，但是肉体依旧炽热。
+<!doctype html><html lang=zh dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Posts | 浴憶</title>
+<meta name=keywords content><meta name=description content="Posts - 浴憶"><meta name=author content><link rel=canonical href=https://lostnatsu.com/posts/><link crossorigin=anonymous href=/assets/css/stylesheet.3f9c3df41d49c1df83c4f93106bd40eae5ce265f122a1a1a99f034136f7c15f5.css integrity="sha256-P5w99B1Jwd+DxPkxBr1A6uXOJl8SKhoamfA0E298FfU=" rel="preload stylesheet" as=style><link rel=icon href=https://lostnatsu.com/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://lostnatsu.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://lostnatsu.com/favicon-32x32.png><link rel=apple-touch-icon href=https://lostnatsu.com/apple-touch-icon.png><link rel=mask-icon href=https://lostnatsu.com/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://lostnatsu.com/posts/index.xml><link rel=alternate hreflang=zh href=https://lostnatsu.com/posts/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script><script>window.MathJax={tex:{inlineMath:[["$","$"],["\\(","\\)"]],displayMath:[["$$","$$"],["\\[","\\]"]],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:["script","noscript","style","textarea","pre"]}},window.onload=function(){MathJax.typesetPromise().then(()=>{console.log("MathJax rendering complete.")})}</script><script src=//yihui.org/js/math-code.js defer></script><meta property="og:url" content="https://lostnatsu.com/posts/"><meta property="og:site_name" content="浴憶"><meta property="og:title" content="Posts"><meta property="og:locale" content="zh"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Posts"><meta name=twitter:description content><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://lostnatsu.com/posts/"}]}</script></head><body class=list id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://lostnatsu.com/ accesskey=h title="浴憶 (Alt + H)">浴憶</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://lostnatsu.com/archives title=碎片><span>碎片</span></a></li><li><a href=https://lostnatsu.com/search/ title=搜尋><span>搜尋</span></a></li><li><a href=https://lostnatsu.com/about title=這誰,這啥><span>這誰,這啥</span></a></li></ul></nav></header><main class=main><header class=page-header><h1>Posts</h1></header><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>夏天冰冷的水</h2></header><div class=entry-content><p>Water Memories, Cara Romero 有一种被深邃的自然包围的感觉。神秘冰冷，但是肉体依旧炽热。
 这种深邃的感受或许会游泳的人多少会有一点，但是于我而言，更精确的描述如下：
 小学二三年级夏天，我学会了游泳。我和爸妈在将近日落之时开始在小区泳池游泳。我爸不咋会换气，于是他只能在他刚刚能站住脚的高度游泳，我则和水性不错的妈妈在深水区游泳。浅水区有小孩在嬉水，夕阳光照耀水滴，每一个瞬间都晶莹剔透。过了不久，炎热刚离开天边，泳池还记得一些温度。稀稀拉拉回家的拖鞋声响起，留下逐渐平缓的水面。我和妈妈继续在游泳，从浅水区游到深水区，再游回来。泳池周围只有昏黄的路灯，将将能够让人分辨出人的形状。
-每每和妈妈又到深水区，趴在岸边休息的时候，脚底下冰冷黑暗的水在缓缓流动。风吹着岸边的树沙沙作响，我们因为怕冷而不想上岸。于是我缩成一团，因为害怕鬼怪而不想触碰黑暗。我抱着妈妈的手臂，或者是我缩在她怀里。总之有温暖，有安全感。</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-03-15 02:20:02 -0500 -0500'>三月 15, 2024</span></footer>
-  <a class="entry-link" aria-label="post link to 夏天冰冷的水" href="https://lostnatsu.com/posts/%E5%A4%8F%E5%A4%A9%E5%86%B0%E5%86%B7%E7%9A%84%E6%B0%B4/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>夏天 in Long Season
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Allen说得很对，Fishmans 的 Long season 中间有一段，在二十三分五十秒左右，只有钢琴和节奏吉他，紧接着是一段若即若离的“bababa”。一整首歌里面最最容易让人陷入夏日回忆的一段。独特的味道，是我对于Allen描述的孤岛气息的理解。
+每每和妈妈又到深水区，趴在岸边休息的时候，脚底下冰冷黑暗的水在缓缓流动。风吹着岸边的树沙沙作响，我们因为怕冷而不想上岸。于是我缩成一团，因为害怕鬼怪而不想触碰黑暗。我抱着妈妈的手臂，或者是我缩在她怀里。总之有温暖，有安全感。</p></div><footer class=entry-footer><span title='2024-03-15 02:20:02 -0500 -0500'>三月 15, 2024</span></footer><a class=entry-link aria-label="post link to 夏天冰冷的水" href=https://lostnatsu.com/posts/%E5%A4%8F%E5%A4%A9%E5%86%B0%E5%86%B7%E7%9A%84%E6%B0%B4/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>夏天 in Long Season</h2></header><div class=entry-content><p>Allen说得很对，Fishmans 的 Long season 中间有一段，在二十三分五十秒左右，只有钢琴和节奏吉他，紧接着是一段若即若离的“bababa”。一整首歌里面最最容易让人陷入夏日回忆的一段。独特的味道，是我对于Allen描述的孤岛气息的理解。
 现在的我在洛杉矶的出租车上。晃晃荡荡一整天的旅程只觉得累。但想到小学六年级跟着家里阿姨去广西，奔波各地，在旅游淡季去人迹罕至的景点。那时候做单程十块十五块的大巴车，一坐就是两个小时。刚上车总是看一会阿姨的手机，借网络小说打发时间。累了躺在阿姨腿上，边睡觉边流口水。一觉醒来下车就看高耸的需要仰头的青山。对于常年生活在丘陵地带的我来说一时间说不出话语。想要拍照，但是手机镜头塞不下。
 去玩！就是太热了，三四十度的夏天里毒辣的太阳蚕食着裸露的皮肤。我们只好披着在大巴车上买的蓝色的“神奇凉巾”。再做一个三轮车晃晃悠悠开到山脚下，去看水源洞。到现在我见过两个水的颜色让我无法忘怀：青海湖的深青色，还有这广西不知道哪一座城附近水源洞流出来的碧玉般的透绿色。水还不小，是一条十几二十米宽的河。阿姨说这水是从山间里一块块大石头的缝里流出来的。去到洞里，在河上架着的桥上看洞深处的藏在阴影里的瀑布。水汽铺面，很是阴冷。去到洞外面，几个人在河里玩水。我们也下去泡着。冰冷！我用一个怡宝矿泉水瓶装满了一瓶，拎出水面就起了一层雾。
 现在对于那条河的回忆是清凉的，是石头被晒得发光的。如梦似幻。
-会再去的。说不定赤身裸体，如同无依之地里面的人一般，躺在水里流泪。</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-03-09 02:30:07 -0500 -0500'>三月 9, 2024</span></footer>
-  <a class="entry-link" aria-label="post link to 夏天 in Long Season" href="https://lostnatsu.com/posts/%E5%A4%8F%E5%A4%A9-in-long-season/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>雾还是云
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>我说我会为了周边的朋友改变我自己的形状。Allen 说infp有坚硬的内核，柔软的外层。可能确实如此。 我里面有一坨混沌，外面一层云。小学创QQ号的时候起名天边的云。那个时候在班上很孤独，只有一个朋友。或者说只有一个人进到了云里，搅动着我。“天边的云”后来变成了“云”。 至于现在的“洗洗睡罢”，一开始只是b站账号……多嘴。
+会再去的。说不定赤身裸体，如同无依之地里面的人一般，躺在水里流泪。</p></div><footer class=entry-footer><span title='2024-03-09 02:30:07 -0500 -0500'>三月 9, 2024</span></footer><a class=entry-link aria-label="post link to 夏天 in Long Season" href=https://lostnatsu.com/posts/%E5%A4%8F%E5%A4%A9-in-long-season/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>雾还是云</h2></header><div class=entry-content><p>我说我会为了周边的朋友改变我自己的形状。Allen 说infp有坚硬的内核，柔软的外层。可能确实如此。 我里面有一坨混沌，外面一层云。小学创QQ号的时候起名天边的云。那个时候在班上很孤独，只有一个朋友。或者说只有一个人进到了云里，搅动着我。“天边的云”后来变成了“云”。 至于现在的“洗洗睡罢”，一开始只是b站账号……多嘴。
 不知道是否因为我这种奇妙的状态，我总是很想变成鸟，变成空气，羡慕巨人住的城堡，喜欢在飞机上看下面的白海。
 不知是否因此，在这个特殊得不能再特殊的日子里，上天回应了我，在我身处的地方放了一团云，一场雾。恰恰在纪念日，恰恰好第一次听电台头子的OK Computer，Exit music 又刚好在我脑海里挥之不去。我里想着冲到大马路上撞向光亮，但晚上发生的打架让我害怕子弹穿过头脑时候的极度懊悔与无力。 到底是不知道为什么宇宙中所有的粒子共同作用，造出了这么一出戏。
 极度悲伤？没。是大雾。是站在路口瞻前顾后。前面写着禁止通行，后面是一条烂路。左右两边车水马龙。灯光照着我。“该走了，别在这停下来”，外面有个声音说到。不能停在马路上，得继续走人行道。慢了车要哔我。
 可是，求求了，时间精灵，让我歇会吧！或者，沙魔先生，让我睡几个没有梦的觉吧…
 我做不到，做不到不喜欢，做不到情绪不波动。等到重击我的东西穿过我的核，再从另一头带走我的全部云彩，又像是撕去了木棉种子的絮——不管怎么样它没办法再飘了。
 只是痛苦是必然的，是必须的。我只是，只是需要点时间…
-一月二十三号之后的那个凌晨</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-01-24 02:00:47 -0600 -0600'>一月 24, 2024</span></footer>
-  <a class="entry-link" aria-label="post link to 雾还是云" href="https://lostnatsu.com/posts/%E9%9B%BE/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>大妈
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>我骑车经过了一个大妈，她领着大包小袋晃晃悠悠走着，左手夹着一根细长的烟，嘴里在自言自语。到底是为什么人喜欢自言自语，人或许有些时候很需要自己说话取悦自己？
-我在十字路口等着。大妈大喊着&#34;Wait, wait!“经过我身边，毫无顾忌地冲破了人行红灯，向着斜对角刚启动的9B大巴车边小跑边挥手。她一脸的愤怒和烦躁。“He said, he said…” 她又在自言自语。大巴车为了不撞到她，小踩了一下刹车。然后继续缓缓前进，给她吃了一脸车尾气。
-我很好奇，这样讲出来一个故事，你想像出来的大妈是什么样子的？胖的瘦的？中年还是老年？黑人白人还是黄种人？</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-01-04 13:47:47 -0600 -0600'>一月 4, 2024</span></footer>
-  <a class="entry-link" aria-label="post link to 大妈" href="https://lostnatsu.com/posts/%E5%A4%A7%E5%A6%88/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>坠落
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>运气好的话能看到柔软的晚霞，云彩是卷棉花糖时候凭空出现的丝线，她们在天上被撕扯开来变成薄纱。这让我想跳到天上。不能跳，跳的话太累了，不够自由。得是重力出现在云彩深处，我转身向上坠落进去。无法想象在空中能看到怎么样的晚霞。待到落入广袤无垠的粉红色天池里，冲散一点云彩，打破一点宁静。原谅我，请包裹住我，请接受我。要不就此变成粉末，也好弥散在天上增添点红。
-过不久天上的灵气被树吸走，留下蓝色––也没有什么颜色比蓝色更静、更纯。</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-12-06 17:14:30 -0600 -0600'>十二月 6, 2023</span></footer>
-  <a class="entry-link" aria-label="post link to 坠落" href="https://lostnatsu.com/posts/%E5%9D%A0%E8%90%BD/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>疯魔
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>大概是2019年的期末，我们都把桌子搬到了走廊上，只留下零零散散的几张摆在教室里。印象里考完之后我趴在桌子上发呆，或者是在干什么不得劲的事。戚老师过来做我旁边，问我是不是有点抑郁。有的时候情绪低落，极度厌世，对任何事情都提不起任何兴趣。自杀的场景在我脑海中以各种方式上演。随时随地。
+一月二十三号之后的那个凌晨</p></div><footer class=entry-footer><span title='2024-01-24 02:00:47 -0600 -0600'>一月 24, 2024</span></footer><a class=entry-link aria-label="post link to 雾还是云" href=https://lostnatsu.com/posts/%E9%9B%BE/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>大妈</h2></header><div class=entry-content><p>我骑车经过了一个大妈，她领着大包小袋晃晃悠悠走着，左手夹着一根细长的烟，嘴里在自言自语。到底是为什么人喜欢自言自语，人或许有些时候很需要自己说话取悦自己？
+我在十字路口等着。大妈大喊着"Wait, wait!“经过我身边，毫无顾忌地冲破了人行红灯，向着斜对角刚启动的9B大巴车边小跑边挥手。她一脸的愤怒和烦躁。“He said, he said…” 她又在自言自语。大巴车为了不撞到她，小踩了一下刹车。然后继续缓缓前进，给她吃了一脸车尾气。
+我很好奇，这样讲出来一个故事，你想像出来的大妈是什么样子的？胖的瘦的？中年还是老年？黑人白人还是黄种人？</p></div><footer class=entry-footer><span title='2024-01-04 13:47:47 -0600 -0600'>一月 4, 2024</span></footer><a class=entry-link aria-label="post link to 大妈" href=https://lostnatsu.com/posts/%E5%A4%A7%E5%A6%88/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>坠落</h2></header><div class=entry-content><p>运气好的话能看到柔软的晚霞，云彩是卷棉花糖时候凭空出现的丝线，她们在天上被撕扯开来变成薄纱。这让我想跳到天上。不能跳，跳的话太累了，不够自由。得是重力出现在云彩深处，我转身向上坠落进去。无法想象在空中能看到怎么样的晚霞。待到落入广袤无垠的粉红色天池里，冲散一点云彩，打破一点宁静。原谅我，请包裹住我，请接受我。要不就此变成粉末，也好弥散在天上增添点红。
+过不久天上的灵气被树吸走，留下蓝色––也没有什么颜色比蓝色更静、更纯。</p></div><footer class=entry-footer><span title='2023-12-06 17:14:30 -0600 -0600'>十二月 6, 2023</span></footer><a class=entry-link aria-label="post link to 坠落" href=https://lostnatsu.com/posts/%E5%9D%A0%E8%90%BD/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>疯魔</h2></header><div class=entry-content><p>大概是2019年的期末，我们都把桌子搬到了走廊上，只留下零零散散的几张摆在教室里。印象里考完之后我趴在桌子上发呆，或者是在干什么不得劲的事。戚老师过来做我旁边，问我是不是有点抑郁。有的时候情绪低落，极度厌世，对任何事情都提不起任何兴趣。自杀的场景在我脑海中以各种方式上演。随时随地。
 从那段疯魔之后，到现在已经快五年了。我的世界并没有变得阳光普照。当我产生想要冲破13层楼落地窗玻璃的冲动的时候，我并不会感到惊讶，更没有恐惧。或者说，我最近好像意识到，这股冲动好像和想要揍人的冲动是类似的。只是我不愿意打别人。那就只好向自己扣动扳机。我确确实实在梦里体验过一次，感觉不太妙。现在，魔并没有离开，它围着我转，我只是看着它。
 到底是不知道该向谁诉说这些幽暗湿冷的触感。
-不过好了，妈妈打电话过来了。</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-11-21 22:13:31 -0600 -0600'>十一月 21, 2023</span></footer>
-  <a class="entry-link" aria-label="post link to 疯魔" href="https://lostnatsu.com/posts/%E7%97%85%E9%AD%94/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>小时候的读物
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>想听我絮絮叨叨吗？
+不过好了，妈妈打电话过来了。</p></div><footer class=entry-footer><span title='2023-11-21 22:13:31 -0600 -0600'>十一月 21, 2023</span></footer><a class=entry-link aria-label="post link to 疯魔" href=https://lostnatsu.com/posts/%E7%97%85%E9%AD%94/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>小时候的读物</h2></header><div class=entry-content><p>想听我絮絮叨叨吗？
 今晚想喝点。想到家里有瓶非常香的金酒，但上次纯饮的体验实在糟糕。又想到家里的汤力水开了之后在外头放了太久，于是在楼下超市重新买了一瓶。无意间回想起来小时候经常读零食的配料表。倒也不是因为喜欢钻研它们，只是放学路上过于无聊，走在路上就盯着配料表都读一遍。
 小麦粉、生活饮用水、植物油、食用盐、白砂糖…… 剩下的都是一些食品添加剂，什么“安塞蜜”，什么“阿斯巴甜”，什么“谷氨酸钠”这些。这些字眼都太熟悉了。我还从我哥高中化学课本里面学到，说“亮蓝” 和 “日落黄” 都是有点毒的色素，最好不要吃。但我实在是耐不住那菠萝味的冰工厂雪糕和五彩橡皮糖的诱惑。
 这种事情还会发生在上厕所的时候。没办法啊，闲着无聊，从洗手盆下面拿一瓶蓝月亮开始看配料表。不过那些字都确实有点生涩难懂了。看着食品配料表的时候，还会幻想着要是能凑够那些原材料，多试试岂不是就能破解配方了？可口可乐的配方为什么没有人去破解一下？ （对，我从小到大都喝可口可乐！）说回来，读蓝月亮这些确实是看不出什么出来，但是至少能帮我消磨点时间。
@@ -258,140 +27,23 @@
 除了这些被允许的书，最喜欢的是爆笑校园和阿衰。有一次生日朋友送了我一本爆笑校园 26。那大概是人生中第一本搞笑漫画书。它被我放在床头。睡前总要翻两下，看着非常开心。每一篇看了估计都有几十遍。读到后面，我像是默写英语单词一般，随便翻开一页，光看名字，脑子里想着每个格子的画面是啥样的。太熟了，直到现在都还记得，以至于再看到这些画面的时候浑身战栗 —— 就是它！不过和爆笑校园比，阿衰就潮流滑稽得多，语言也稍微低俗一些。不过只要能读到，那就是好的。只能偶尔借着朋友十块钱一本的周刊看，或者去表哥家爽看一番。又想起来了一个。家里以前会订南方都市报。我一个日常就是从爸爸妈妈看过的报纸堆里面全都翻出来，找第三十四页看。那一页都是漫画。
 再更小的时候，喜欢小熊维尼。爸爸买了一本带它的书给我，带了一些字。翻开第一页，看到一个词语“小熊维尼•菩”。现在知道这是Winnie the Pooh，但那会看哭了都看不出来这菩萨的菩和小熊维尼有什么关系。卡在第一页，真急了。打电话给我爸，他在上班，没空搞懂我哭什么。就这么潦潦草草结束了这段回忆。
 可能还有别的吧？忘得差不多啦。
-我找到了这一点点回忆的泡泡，有些实在是过于破碎。抱歉。</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-11-02 01:49:05 -0500 -0500'>十一月 2, 2023</span></footer>
-  <a class="entry-link" aria-label="post link to 小时候的读物" href="https://lostnatsu.com/posts/%E5%B0%8F%E6%97%B6%E5%80%99%E7%9A%84%E8%AF%BB%E7%89%A9/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>我又他妈失眠了
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>五点钟的一杯咖啡，到凌晨两点三十六分还在保质期内。
+我找到了这一点点回忆的泡泡，有些实在是过于破碎。抱歉。</p></div><footer class=entry-footer><span title='2023-11-02 01:49:05 -0500 -0500'>十一月 2, 2023</span></footer><a class=entry-link aria-label="post link to 小时候的读物" href=https://lostnatsu.com/posts/%E5%B0%8F%E6%97%B6%E5%80%99%E7%9A%84%E8%AF%BB%E7%89%A9/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>我又他妈失眠了</h2></header><div class=entry-content><p>五点钟的一杯咖啡，到凌晨两点三十六分还在保质期内。
 每当我睡不着时，脑海里总会有乱七八糟的画面环绕着乱作一团。
 今天发现了很梦幻的场景，索拉里斯星的蓝色。我沐浴在蓝色世界里，部分身体被溶解成胶质。脑海里又时不时闪过星球上被蓝太阳光照耀的房间，仿佛看到了杂乱的书桌，熟悉的身影。
 紧接着又幻想着我身处于同样蓝色的审问室里，看着充满钢铁气息的桌面上摆着三四层的生日蛋糕。猛然间身体砸向蛋糕，亦或者是蛋糕爆裂开来向四处喷射。我后仰靠在椅背上，衣服上全是蛋糕。但衣服又瞬间消融，白色的奶油涂抹在裸露的身上 —— 不是我的身体，不知道谁的。我笑得很开心。或许这就是破坏所带来的最原始的快乐。
-Allen </p>
-  </div>
-  <footer class="entry-footer"><span title='2023-10-25 02:37:29 -0500 -0500'>十月 25, 2023</span></footer>
-  <a class="entry-link" aria-label="post link to 我又他妈失眠了" href="https://lostnatsu.com/posts/%E6%88%91%E5%8F%88%E5%A4%B1%E7%9C%A0%E4%BA%86/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>毫无意义的画面
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>到了需要为了维持生命体征而进食的时间了，好烦。
+Allen</p></div><footer class=entry-footer><span title='2023-10-25 02:37:29 -0500 -0500'>十月 25, 2023</span></footer><a class=entry-link aria-label="post link to 我又他妈失眠了" href=https://lostnatsu.com/posts/%E6%88%91%E5%8F%88%E5%A4%B1%E7%9C%A0%E4%BA%86/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>毫无意义的画面</h2></header><div class=entry-content><p>到了需要为了维持生命体征而进食的时间了，好烦。
 可能是太久没出门，想躺在床上一觉不醒逃避一切，啥都好难，不想努力。有没有多啦A梦来拯救一下。多好的漫画，最初最初是逃避现实的产物吗？蜡笔小新呢？
 有时候特别想学会画画，脑子里有太多的色彩包裹住情感无处释放。不过画的前提是能够从杂念中剥离出某个具象的图像吧？有时候会有这种图像，不过转瞬即逝。并且过了一段时间之后大概也会变得毫无意义。现在让我出来可能无非就是：四五点的时候朝北的小窗被米黄色窗帘覆盖，一盆厚重绿色的绿萝放在窗前的黑色大理石台面上。毫无意义，杂乱无章，但精确无比。
 是该吃饭了，这次我就让自己想吃炸鸡好了。嗯。
 45块的外卖，90包以前的辣条，三和大神的 2.4 小时，不算起步价的16公里。
-毫无意义。</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-08-02 16:38:30 -0500 -0500'>八月 2, 2023</span></footer>
-  <a class="entry-link" aria-label="post link to 毫无意义的画面" href="https://lostnatsu.com/posts/%E6%AF%AB%E6%97%A0%E6%84%8F%E4%B9%89%E7%9A%84%E7%94%BB%E9%9D%A2/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>玉米地音乐会
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>在玉米地听了人生中第一场钢琴独奏音乐会，是郎朗弹哥德堡变奏曲。这应该算是我心中最重要的一场演出了。因为正是在2022年初的冬天，我刷到了郎朗弹李斯特的钟的视频，从那刻开始我像是开窍了一般喜欢上了郎朗弹的李斯特。那就开始听他的专辑了啊。Apple music 上天天听 钟 和 爱之梦。哎，对我而言丰富的情感和精巧的触键一下就戳中了我。我曾在CIF的四五米高的落地窗旁的桌子上，看外面的雪景，听郎朗弹李斯特。哦，虽然很有可能“看雪景”这个场景是我幻想出来的，因为下雪的时候教学楼还没有开。不过这有趣的画面实实在在地出现在我的想象里。不过后来钢琴听太多了，又去听拉二，听柴小协，又入了two set violin的坑。哦，这些都是后话了。
+毫无意义。</p></div><footer class=entry-footer><span title='2023-08-02 16:38:30 -0500 -0500'>八月 2, 2023</span></footer><a class=entry-link aria-label="post link to 毫无意义的画面" href=https://lostnatsu.com/posts/%E6%AF%AB%E6%97%A0%E6%84%8F%E4%B9%89%E7%9A%84%E7%94%BB%E9%9D%A2/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>玉米地音乐会</h2></header><div class=entry-content><p>在玉米地听了人生中第一场钢琴独奏音乐会，是郎朗弹哥德堡变奏曲。这应该算是我心中最重要的一场演出了。因为正是在2022年初的冬天，我刷到了郎朗弹李斯特的钟的视频，从那刻开始我像是开窍了一般喜欢上了郎朗弹的李斯特。那就开始听他的专辑了啊。Apple music 上天天听 钟 和 爱之梦。哎，对我而言丰富的情感和精巧的触键一下就戳中了我。我曾在CIF的四五米高的落地窗旁的桌子上，看外面的雪景，听郎朗弹李斯特。哦，虽然很有可能“看雪景”这个场景是我幻想出来的，因为下雪的时候教学楼还没有开。不过这有趣的画面实实在在地出现在我的想象里。不过后来钢琴听太多了，又去听拉二，听柴小协，又入了two set violin的坑。哦，这些都是后话了。
 后来听郎朗弹琴就是在夏天听蓝色狂想曲的时候了。那个暑假住在高中同学家里，没事干，成天闲着慌。他家旁边走路十几分钟就有一个商城，我们天天去那里吃饭。想到我在玉米地待久了，当时再一次进入商城里逛街时候的感觉 – 恍惚间回到了深圳，回到了刚翻新完的华强北。工作日的中午，偶尔有几个人走来走去，实在是悠闲得很。我们就这样在无聊的日子里过随意的生活。夏天晚上在吃商城里吃过饭之后，回家路上我就听蓝色狂想曲。一种神奇的夏日的气息应该是烙在我心里了：
 像是在夏天末尾的一个落日前的金黄时刻，有一条稀稀拉拉有些落叶的铺着青石板路的小巷子。而我和朋友在那小巷子旁边的凉亭里，刚刚买来人生中的第一瓶波子汽水，坐在木头长椅上费劲地捉摸着怎么打开来喝。在波子汽水“啵”的一声打开之后，漫出来的汽水喷到了手上。这夏天的气息是在这种惊喜之后，抬头看向朋友的那个瞬间 —— 那个瞬间能看到了昏黄的不刺眼的太阳和影子被拉的老长的树影。但其实藏在那个瞬间的夏天的气息对我来说只是模模糊糊的感受。如果是某个镜头的话，应该是低快门速度的慢动作”抬头“ —— 只有色彩，只有感受。
 这么不着边际地扯了一大段，但只是我所有感受中的几秒钟。还有许许多多气息被我寻回。而这一切我好像都在琴声中找到了。这是属于我自己的，慢慢的快乐。虽然之前听过很多次哥德堡变奏曲，但是都没有专心欣赏过。今晚专心听的时候，我拥有了这最珍贵的体验。
 今夜是极致幸福的。我被拥抱，我想被拥抱，我想拥抱一切。
-ins: wrapped.nil </p>
-  </div>
-  <footer class="entry-footer"><span title='2023-03-04 05:10:56 -0500 -0500'>三月 4, 2023</span></footer>
-  <a class="entry-link" aria-label="post link to 玉米地音乐会" href="https://lostnatsu.com/posts/%E7%8E%89%E7%B1%B3%E5%9C%B0%E9%9F%B3%E4%B9%90%E4%BC%9A/"></a>
-</article>
-<footer class="page-footer">
-  <nav class="pagination">
-    <a class="prev" href="https://lostnatsu.com/posts/">
-      «&nbsp;上一页&nbsp;
-    </a>
-    <a class="next" href="https://lostnatsu.com/posts/page/3/">下一页&nbsp;&nbsp;»
-    </a>
-  </nav>
-</footer>
-    </main>
-    
-<footer class="footer">
-    <span>&copy; 2024 <a href="https://lostnatsu.com/">浴憶</a></span>
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-
-<script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
-</body>
-
-</html>
+ins: wrapped.nil</p></div><footer class=entry-footer><span title='2023-03-04 05:10:56 -0500 -0500'>三月 4, 2023</span></footer><a class=entry-link aria-label="post link to 玉米地音乐会" href=https://lostnatsu.com/posts/%E7%8E%89%E7%B1%B3%E5%9C%B0%E9%9F%B3%E4%B9%90%E4%BC%9A/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://lostnatsu.com/posts/>«&nbsp;上一页&nbsp;
+</a><a class=next href=https://lostnatsu.com/posts/page/3/>下一页&nbsp;&nbsp;»</a></nav></footer></main><footer class=footer><span>&copy; 2024 <a href=https://lostnatsu.com/>浴憶</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script></body></html>
