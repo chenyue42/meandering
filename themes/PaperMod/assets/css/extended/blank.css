@@ -1,0 +1,84 @@
+/*
+This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
+
+Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
+*/
+body {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight:'400';
+}
+
+code {
+  font-family: "Montserrat", sans-serif;
+  font-weight:'400';
+}
+
+/* check themes/PaperMod/assets/css/core/theme-vars.css for more */
+:root {
+  --theme: #fdf8ed;   /* this color is for content background */
+  --code-bg: #fdf8ed; /* papermod uses this color for front page background */ 
+  --entry: #fff5cf;
+  --content: rgb(31, 31, 31);
+  --code-block-bg: #fff5cf;
+  --border: #ffe064;
+  --code-font-color: #3c3c3c;
+}
+
+.dark {
+  --theme: rgb(15, 30, 34);
+  --entry: rgb(37, 51, 52);
+  --primary: #cbc876;
+  --secondary: #91b374;
+  --tertiary: rgb(65, 66, 68);
+  --content: rgb(177, 195, 165);
+  --hljs-bg: rgb(46, 46, 51);
+  --code-bg: #1f1f1f;
+  --border: rgb(51, 51, 51);
+  --code-font-color: rgb(152, 204, 207);
+  --code-block-bg: rgb(30, 59, 67);
+}
+
+.entry-content {
+  margin: 8px 0;
+  /* color: var(--secondary); */
+  color: var(--content);
+  font-size: 14px;
+  line-height: 1.6;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.sub-secondary {
+  margin: 8px 0;
+  color: var(--secondary);
+  font-size: 16px;
+  line-height: 1.6;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+
+.post-content pre code {
+  display: grid;
+  margin: auto 0;
+  padding: 10px;
+  color: var(--code-font-color);
+  font-family: "Source Code Pro", monospace;
+  background: var(--code-block-bg) !important;
+  border-radius: var(--radius);
+  overflow-x: auto;
+  word-break: break-all;
+  tab-size: 2;
+}
+
+.post-entry:hover {
+  transform: scale(1.01); /* Optional: Add a slight lift effect */
+}
+
+.post-entry:active {
+  transform: scale(0.99);
+}
