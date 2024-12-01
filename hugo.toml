@@ -3,7 +3,7 @@ baseURL = 'https://lostnatsu.com/'
 languageCode = 'zh'
 defaultContentLanguage = 'zh'
 title = "浴憶"
-theme = 'hugo-PaperMod'
+theme = 'PaperMod'
 
 [params.homeInfoParams]
 Title = '太陽強烈 水波溫柔'
