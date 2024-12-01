@@ -7,7 +7,7 @@ theme = 'PaperMod'
 
 [params.homeInfoParams]
 Title = '太陽強烈 水波溫柔'
-Content = '洗洗睡啦'
+Content = '洗洗做夢'
 
 [[params.socialIcons]]
 name = "email"
