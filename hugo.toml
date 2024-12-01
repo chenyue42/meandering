@@ -9,10 +9,6 @@ theme = 'PaperMod'
 Title = '太陽強烈 水波溫柔'
 Content = '洗洗做夢'
 
-[[params.socialIcons]]
-name = "email"
-url = "mailto:helloboy3x@gmail.com"
-
 [[menu.main]]
 name = "碎片"
 url = "archives"
