@@ -1,0 +1,16 @@
+{{ $albumName := .Get 0 }}
+{{ $width := .Get 1 | default "70%" }}
+{{ $albumPath := print "static/myimgs/" $albumName }}
+{{ $images := readDir $albumPath }}
+
+<center>
+  <figure>
+    {{ range $images }}
+    {{ if and (not .IsDir) (ne .Name ".DS_Store") }}
+      {{ $imgURL := print "myimgs/" $albumName "/" .Name | relURL }}
+      <img src="{{ $imgURL }}" style="width:{{ $width }}"/>
+    {{ end }}
+  {{ end }}
+  
+  </figure>
+</center>
