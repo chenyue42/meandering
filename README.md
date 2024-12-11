@@ -1,3 +1,3 @@
 # 憶浴
 
-[helloboyxxx.github.io/meandering](https://helloboyxxx.github.io/meandering/)
+[https://lostnatsu.com/](https://lostnatsu.com/)
