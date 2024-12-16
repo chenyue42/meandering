@@ -10,7 +10,7 @@ display: none;
 position: fixed;
 top: 0; left: 0;
 width: 100%; height: 100%;
-background-color: rgba(0,0,0,0.9);
+background-color: rgba(0,0,0,1);
 z-index: 9999;
 overflow: hidden;
 }
@@ -22,10 +22,12 @@ position: absolute;
 top: 0; left: 0; right: 0; bottom: 0;
 }
 #photo-viewer-close {
+color: white;
+font-size: 40px;
 position: absolute;
-top: 20px;
+top: 10px;
 right: 20px;
-background-color: rgba(255,255,255,0.8);
+background: none;
 border: none;
 padding: 10px;
 cursor: pointer;
@@ -78,7 +80,7 @@ display: none;
 &lt;div class="arrow left">&lt;/div>
 &lt;div class="arrow right">&lt;/div>
 &lt;img id="photo-viewer-img" />
-&lt;button id="photo-viewer-close">Close&lt;/button>
+&lt;button id="photo-viewer-close">&amp;times;&lt;/button>
 &lt;/div>
 &lt;script>
 const images = ["https://lostnatsu.com/myimgs/%E5%9C%A8%E7%A9%BA%E4%B8%AD/%E7%A9%BA%E4%B8%AD1.JPG","https://lostnatsu.com/myimgs/%E5%9C%A8%E7%A9%BA%E4%B8%AD/%E7%A9%BA%E4%B8%AD2.JPG","https://lostnatsu.com/myimgs/%E5%9C%A8%E7%A9%BA%E4%B8%AD/%E7%A9%BA%E4%B8%AD3.JPG","https://lostnatsu.com/myimgs/%E5%9C%A8%E7%A9%BA%E4%B8%AD/%E7%A9%BA%E4%B8%AD4.JPG","https://lostnatsu.com/myimgs/%E5%9C%A8%E7%A9%BA%E4%B8%AD/%E7%A9%BA%E4%B8%AD5.JPG","https://lostnatsu.com/myimgs/%E5%9C%A8%E7%A9%BA%E4%B8%AD/%E7%A9%BA%E4%B8%AD6.JPG"];
@@ -101,7 +103,7 @@ photoViewer.classList.add('show-controls');
 clearTimeout(controlsTimeout);
 controlsTimeout = setTimeout(() => {
 photoViewer.classList.remove('show-controls');
-}, 2000);
+}, 1500);
 }
 arrowLeft.addEventListener('click', () => {
 showImage((currentIndex - 1 + images.length) % images.length);
@@ -193,7 +195,7 @@ display: none;
 position: fixed;
 top: 0; left: 0;
 width: 100%; height: 100%;
-background-color: rgba(0,0,0,0.9);
+background-color: rgba(0,0,0,1);
 z-index: 9999;
 overflow: hidden;
 }
@@ -205,10 +207,12 @@ position: absolute;
 top: 0; left: 0; right: 0; bottom: 0;
 }
 #photo-viewer-close {
+color: white;
+font-size: 40px;
 position: absolute;
-top: 20px;
+top: 10px;
 right: 20px;
-background-color: rgba(255,255,255,0.8);
+background: none;
 border: none;
 padding: 10px;
 cursor: pointer;
@@ -272,7 +276,7 @@ display: none;
 &lt;div class="arrow left">&lt;/div>
 &lt;div class="arrow right">&lt;/div>
 &lt;img id="photo-viewer-img" />
-&lt;button id="photo-viewer-close">Close&lt;/button>
+&lt;button id="photo-viewer-close">&amp;times;&lt;/button>
 &lt;/div>
 &lt;script>
 const images = ["https://lostnatsu.com/myimgs/%E6%96%B0%E7%94%9F%E5%91%BD/burnham.jpg","https://lostnatsu.com/myimgs/%E6%96%B0%E7%94%9F%E5%91%BD/chicago_street.jpeg","https://lostnatsu.com/myimgs/%E6%96%B0%E7%94%9F%E5%91%BD/denver_parking.jpg","https://lostnatsu.com/myimgs/%E6%96%B0%E7%94%9F%E5%91%BD/denver_zoo.jpg","https://lostnatsu.com/myimgs/%E6%96%B0%E7%94%9F%E5%91%BD/kodak_bird.jpg","https://lostnatsu.com/myimgs/%E6%96%B0%E7%94%9F%E5%91%BD/kranner_afternoon.jpg","https://lostnatsu.com/myimgs/%E6%96%B0%E7%94%9F%E5%91%BD/la_downtown.jpg","https://lostnatsu.com/myimgs/%E6%96%B0%E7%94%9F%E5%91%BD/oh_teton.jpg","https://lostnatsu.com/myimgs/%E6%96%B0%E7%94%9F%E5%91%BD/riding.jpg","https://lostnatsu.com/myimgs/%E6%96%B0%E7%94%9F%E5%91%BD/teton_chair.jpeg","https://lostnatsu.com/myimgs/%E6%96%B0%E7%94%9F%E5%91%BD/teton_girl.jpeg","https://lostnatsu.com/myimgs/%E6%96%B0%E7%94%9F%E5%91%BD/the_play.jpeg","https://lostnatsu.com/myimgs/%E6%96%B0%E7%94%9F%E5%91%BD/yellow-flower.jpeg","https://lostnatsu.com/myimgs/%E6%96%B0%E7%94%9F%E5%91%BD/yellowstone-liao.jpeg","https://lostnatsu.com/myimgs/%E6%96%B0%E7%94%9F%E5%91%BD/%E5%8D%88%E5%90%8E.jpeg","https://lostnatsu.com/myimgs/%E6%96%B0%E7%94%9F%E5%91%BD/%E5%98%89.jpg","https://lostnatsu.com/myimgs/%E6%96%B0%E7%94%9F%E5%91%BD/%E7%A7%8B%E6%9C%AB%E7%9A%84%E7%BB%BF%E8%89%B2.jpg"];
@@ -295,7 +299,7 @@ photoViewer.classList.add('show-controls');
 clearTimeout(controlsTimeout);
 controlsTimeout = setTimeout(() => {
 photoViewer.classList.remove('show-controls');
-}, 2000);
+}, 1500);
 }
 arrowLeft.addEventListener('click', () => {
 showImage((currentIndex - 1 + images.length) % images.length);
