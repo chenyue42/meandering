@@ -6,8 +6,8 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 @font-face {
   font-family: 'LXGW WenKai Lite';
-  src: url('/static/fonts/LXGWWenKaiLite-Regular.woff2') format('woff2'),
-      url('/static/fonts/LXGWWenKaiLite-Regular.woff') format('woff');
+  src: url('/fonts/LXGWWenKaiLite-Regular.woff2') format('woff2'),
+      url('/fonts/LXGWWenKaiLite-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -15,12 +15,12 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 
 body {
-  font-family: "LXGW WenKai", sans-serif !important;
+  font-family: "LXGW WenKai Lite", sans-serif !important;
   font-weight:'400';
 }
 
 code {
-  font-family: "LXGW WenKai", sans-serif;
+  font-family: "LXGW WenKai Lite", sans-serif;
   font-weight:'400';
 }
 
