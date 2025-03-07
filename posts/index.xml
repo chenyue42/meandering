@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on 浴憶</title><link>https://lostnatsu.com/posts/</link><description>Recent content in Posts on 浴憶</description><generator>Hugo -- 0.137.0</generator><language>zh</language><lastBuildDate>Sun, 15 Dec 2024 12:46:16 -0800</lastBuildDate><atom:link href="https://lostnatsu.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>在空中</title><link>https://lostnatsu.com/posts/%E5%9C%A8%E7%A9%BA%E4%B8%AD/</link><pubDate>Sun, 15 Dec 2024 12:46:16 -0800</pubDate><guid>https://lostnatsu.com/posts/%E5%9C%A8%E7%A9%BA%E4%B8%AD/</guid><description>&lt;p>我意识到我有一个超能力：我能很容易地从自然中汲取力量。这可能极具成瘾性，或许也就是我没办法宅家太久的原因？&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on 浴憶</title><link>https://lostnatsu.com/posts/</link><description>Recent content in Posts on 浴憶</description><generator>Hugo -- 0.137.0</generator><language>zh</language><lastBuildDate>Thu, 06 Mar 2025 22:48:37 -0600</lastBuildDate><atom:link href="https://lostnatsu.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>灵光一现</title><link>https://lostnatsu.com/posts/%E7%81%B5%E5%85%89%E4%B8%80%E7%8E%B0/</link><pubDate>Thu, 06 Mar 2025 22:48:37 -0600</pubDate><guid>https://lostnatsu.com/posts/%E7%81%B5%E5%85%89%E4%B8%80%E7%8E%B0/</guid><description>&lt;p>前天洗澡的时候突然在构思遗书，发觉写一份能让自己心安的遗书真的非常有必要。遗书总不能比大学申请还要漫不经心，不然就算是某天想要跳楼了也不会痛快。&lt;/p>
+&lt;center>
+&lt;figure>
+&lt;img src=" /myimgs/Altgeld_old_computers.JPG " style="width:90%;" />
+&lt;figcaption> Altgeld 旧电脑们 &lt;/figcaption>
+&lt;/figure>
+&lt;/center></description></item><item><title>在空中</title><link>https://lostnatsu.com/posts/%E5%9C%A8%E7%A9%BA%E4%B8%AD/</link><pubDate>Sun, 15 Dec 2024 12:46:16 -0800</pubDate><guid>https://lostnatsu.com/posts/%E5%9C%A8%E7%A9%BA%E4%B8%AD/</guid><description>&lt;p>我意识到我有一个超能力：我能很容易地从自然中汲取力量。这可能极具成瘾性，或许也就是我没办法宅家太久的原因？&lt;/p>
 &lt;p>时间流逝，万物生长或者凋零。每次走在街上都会有不同的感受。我经常先注意到一点什么，被震撼到，接着就是得到力量。没有理由，就是很开心。还有时候我也会继续想象点什么，把代入其中。&lt;/p>
 &lt;p>刚才又看到了不同寻常的景色：在冬天雨夜里，机翼顶端有一颗暖白色小灯常亮。飞机平缓有力地从雾色中起飞，待到地面灯光消失，无尽黑暗袭来。然而就这么一颗灯泡冲上云霄，刺破云层，点燃了一片天空。我已然坠入名为天空的海，转头就可以看到深邃夜空渐渐转成海蓝、橙黄、再过渡成火。阴云也变成柔软地毯被我们踩在脚下，天边还有几个调皮鬼飘得更高，变成点缀。&lt;/p>
 &lt;p>这时候请想象着你的手可以伸出窗外，触摸流行的云，丝缕凉意穿过指缝。或者想象漂浮在空中享受无垠的纯净。
@@ -73,7 +79,7 @@ display: none;
 &lt;img src="https://lostnatsu.com/myimgs/%E5%9C%A8%E7%A9%BA%E4%B8%AD/%E7%A9%BA%E4%B8%AD4.JPG" style="width:90%; margin: 5px; cursor: pointer;" class="album-image" />
 &lt;img src="https://lostnatsu.com/myimgs/%E5%9C%A8%E7%A9%BA%E4%B8%AD/%E7%A9%BA%E4%B8%AD5.JPG" style="width:90%; margin: 5px; cursor: pointer;" class="album-image" />
 &lt;img src="https://lostnatsu.com/myimgs/%E5%9C%A8%E7%A9%BA%E4%B8%AD/%E7%A9%BA%E4%B8%AD6.JPG" style="width:90%; margin: 5px; cursor: pointer;" class="album-image" />
-&lt;button id="photo-viewer-btn" style="margin-top: 10px;">Enter Photo Viewer&lt;/button>
+&lt;button id="photo-viewer-btn" style="margin-top: 10px;">&lt;/button>
 &lt;/figure>
 &lt;/center>
 &lt;div id="photo-viewer">
@@ -269,7 +275,7 @@ display: none;
 &lt;img src="https://lostnatsu.com/myimgs/%E6%96%B0%E7%94%9F%E5%91%BD/%E5%8D%88%E5%90%8E.jpeg" style="width:100%; margin: 5px; cursor: pointer;" class="album-image" />
 &lt;img src="https://lostnatsu.com/myimgs/%E6%96%B0%E7%94%9F%E5%91%BD/%E5%98%89.jpg" style="width:100%; margin: 5px; cursor: pointer;" class="album-image" />
 &lt;img src="https://lostnatsu.com/myimgs/%E6%96%B0%E7%94%9F%E5%91%BD/%E7%A7%8B%E6%9C%AB%E7%9A%84%E7%BB%BF%E8%89%B2.jpg" style="width:100%; margin: 5px; cursor: pointer;" class="album-image" />
-&lt;button id="photo-viewer-btn" style="margin-top: 10px;">Enter Photo Viewer&lt;/button>
+&lt;button id="photo-viewer-btn" style="margin-top: 10px;">&lt;/button>
 &lt;/figure>
 &lt;/center>
 &lt;div id="photo-viewer">
