@@ -84,6 +84,7 @@ display: none;
 &lt;img src="https://lostnatsu.com/myimgs/indy/indy12.JPG" style="width:90%; margin: 5px; cursor: pointer;" class="album-image" />
 &lt;img src="https://lostnatsu.com/myimgs/indy/indy13.JPG" style="width:90%; margin: 5px; cursor: pointer;" class="album-image" />
 &lt;img src="https://lostnatsu.com/myimgs/indy/indy14.JPG" style="width:90%; margin: 5px; cursor: pointer;" class="album-image" />
+&lt;img src="https://lostnatsu.com/myimgs/indy/indy15.JPG" style="width:90%; margin: 5px; cursor: pointer;" class="album-image" />
 &lt;img src="https://lostnatsu.com/myimgs/indy/indy16.JPG" style="width:90%; margin: 5px; cursor: pointer;" class="album-image" />
 &lt;img src="https://lostnatsu.com/myimgs/indy/indy17.JPG" style="width:90%; margin: 5px; cursor: pointer;" class="album-image" />
 &lt;img src="https://lostnatsu.com/myimgs/indy/indy18.JPG" style="width:90%; margin: 5px; cursor: pointer;" class="album-image" />
@@ -100,7 +101,7 @@ display: none;
 &lt;button id="photo-viewer-close">&amp;times;&lt;/button>
 &lt;/div>
 &lt;script>
-const images = ["https://lostnatsu.com/myimgs/indy/indy01.JPG","https://lostnatsu.com/myimgs/indy/indy02.JPG","https://lostnatsu.com/myimgs/indy/indy03.jpg","https://lostnatsu.com/myimgs/indy/indy04.JPG","https://lostnatsu.com/myimgs/indy/indy05.JPG","https://lostnatsu.com/myimgs/indy/indy06.JPG","https://lostnatsu.com/myimgs/indy/indy08.JPG","https://lostnatsu.com/myimgs/indy/indy09.JPG","https://lostnatsu.com/myimgs/indy/indy10.JPG","https://lostnatsu.com/myimgs/indy/indy11.JPG","https://lostnatsu.com/myimgs/indy/indy12.JPG","https://lostnatsu.com/myimgs/indy/indy13.JPG","https://lostnatsu.com/myimgs/indy/indy14.JPG","https://lostnatsu.com/myimgs/indy/indy16.JPG","https://lostnatsu.com/myimgs/indy/indy17.JPG","https://lostnatsu.com/myimgs/indy/indy18.JPG","https://lostnatsu.com/myimgs/indy/indy19.JPG","https://lostnatsu.com/myimgs/indy/indy20.JPG","https://lostnatsu.com/myimgs/indy/indy21.jpg"];
+const images = ["https://lostnatsu.com/myimgs/indy/indy01.JPG","https://lostnatsu.com/myimgs/indy/indy02.JPG","https://lostnatsu.com/myimgs/indy/indy03.jpg","https://lostnatsu.com/myimgs/indy/indy04.JPG","https://lostnatsu.com/myimgs/indy/indy05.JPG","https://lostnatsu.com/myimgs/indy/indy06.JPG","https://lostnatsu.com/myimgs/indy/indy08.JPG","https://lostnatsu.com/myimgs/indy/indy09.JPG","https://lostnatsu.com/myimgs/indy/indy10.JPG","https://lostnatsu.com/myimgs/indy/indy11.JPG","https://lostnatsu.com/myimgs/indy/indy12.JPG","https://lostnatsu.com/myimgs/indy/indy13.JPG","https://lostnatsu.com/myimgs/indy/indy14.JPG","https://lostnatsu.com/myimgs/indy/indy15.JPG","https://lostnatsu.com/myimgs/indy/indy16.JPG","https://lostnatsu.com/myimgs/indy/indy17.JPG","https://lostnatsu.com/myimgs/indy/indy18.JPG","https://lostnatsu.com/myimgs/indy/indy19.JPG","https://lostnatsu.com/myimgs/indy/indy20.JPG","https://lostnatsu.com/myimgs/indy/indy21.jpg"];
 let currentIndex = 0;
 const photoViewer = document.getElementById('photo-viewer');
 const photoViewerImg = document.getElementById('photo-viewer-img');
