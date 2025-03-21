@@ -191,7 +191,176 @@ photoViewer.style.display = 'none';
 &lt;img src=" /myimgs/Altgeld_old_computers.JPG " style="width:90%;" />
 &lt;figcaption> Altgeld 旧电脑们 &lt;/figcaption>
 &lt;/figure>
-&lt;/center></description></item><item><title>在空中</title><link>https://lostnatsu.com/posts/%E5%9C%A8%E7%A9%BA%E4%B8%AD/</link><pubDate>Sun, 15 Dec 2024 12:46:16 -0800</pubDate><guid>https://lostnatsu.com/posts/%E5%9C%A8%E7%A9%BA%E4%B8%AD/</guid><description>&lt;p>我意识到我有一个超能力：我能很容易地从自然中汲取力量。这可能极具成瘾性，或许也就是我没办法宅家太久的原因？&lt;/p>
+&lt;/center></description></item><item><title>Onewaslookingatanother</title><link>https://lostnatsu.com/posts/onewaslookingatanother/</link><pubDate>Fri, 14 Feb 2025 03:16:37 -0500</pubDate><guid>https://lostnatsu.com/posts/onewaslookingatanother/</guid><description>&lt;p>我在人满为患的影院中盯着纯白幕布，随着闪烁的光影缓缓漂向一片黑影。最近它逐渐清晰，或者说它来到了我的脚下。也许我早就站在它的背上，只是直到现在我才愿意承认：这里已被遍布漩涡的深海包围。迷雾不再遮挡这座岛的真面目，而是向外飘去，停留在我臂展之外。我只好停下来，双脚插入黑色沙滩中。
+干瞪着雾气久了会忘了色彩，于是我会时不时登上山顶，趴在无限接近天空的废弃信号塔上，看远处洒满阳光的海面上一两艘船只往来。&lt;/p>
+&lt;p>或许某一天水面将会平如镜，如此一来我便可以登上破烂小船，再次开启漫无目的的旅程。&lt;/p>
+&lt;style>
+#photo-viewer {
+display: none;
+position: fixed;
+top: 0; left: 0;
+width: 100%; height: 100%;
+background-color: rgba(0,0,0,1);
+z-index: 9999;
+overflow: hidden;
+}
+#photo-viewer-img {
+max-width: 100%;
+max-height: 100%;
+margin: auto;
+position: absolute;
+top: 0; left: 0; right: 0; bottom: 0;
+}
+#photo-viewer-close {
+color: white;
+font-size: 40px;
+position: absolute;
+top: 10px;
+right: 20px;
+background: none;
+border: none;
+padding: 10px;
+cursor: pointer;
+z-index: 10000;
+opacity: 0;
+transition: opacity 0.3s;
+}
+.arrow {
+border: solid white;
+border-width: 0 3px 3px 0;
+display: inline-block;
+padding: 15px;
+cursor: pointer;
+position: absolute;
+top: 50%;
+z-index: 10000;
+opacity: 0;
+transition: opacity 0.3s;
+}
+.arrow.right {
+right: 20px;
+transform: rotate(-45deg);
+}
+.arrow.left {
+left: 20px;
+transform: rotate(135deg);
+}
+#photo-viewer.show-controls .arrow,
+#photo-viewer.show-controls #photo-viewer-close {
+opacity: 1;
+}
+@media (max-width: 768px) {
+.arrow {
+display: none;
+}
+}
+&lt;/style>
+&lt;center>
+&lt;figure>
+&lt;img src="https://lostnatsu.com/myimgs/onewaslookingatanother/003879910028.jpg" style="width:100%; margin: 5px; cursor: pointer;" class="album-image" />
+&lt;img src="https://lostnatsu.com/myimgs/onewaslookingatanother/003879910030.jpg" style="width:100%; margin: 5px; cursor: pointer;" class="album-image" />
+&lt;img src="https://lostnatsu.com/myimgs/onewaslookingatanother/003879920004.jpg" style="width:100%; margin: 5px; cursor: pointer;" class="album-image" />
+&lt;img src="https://lostnatsu.com/myimgs/onewaslookingatanother/003879920014.jpg" style="width:100%; margin: 5px; cursor: pointer;" class="album-image" />
+&lt;img src="https://lostnatsu.com/myimgs/onewaslookingatanother/003879920018.jpg" style="width:100%; margin: 5px; cursor: pointer;" class="album-image" />
+&lt;img src="https://lostnatsu.com/myimgs/onewaslookingatanother/003879920028.jpg" style="width:100%; margin: 5px; cursor: pointer;" class="album-image" />
+&lt;img src="https://lostnatsu.com/myimgs/onewaslookingatanother/003879930070-2.jpg" style="width:100%; margin: 5px; cursor: pointer;" class="album-image" />
+&lt;img src="https://lostnatsu.com/myimgs/onewaslookingatanother/0575669_0575669-R1-E019.jpg" style="width:100%; margin: 5px; cursor: pointer;" class="album-image" />
+&lt;img src="https://lostnatsu.com/myimgs/onewaslookingatanother/IMG_0200-2.jpg" style="width:100%; margin: 5px; cursor: pointer;" class="album-image" />
+&lt;button id="photo-viewer-btn" style="margin-top: 10px;">&lt;/button>
+&lt;/figure>
+&lt;/center>
+&lt;div id="photo-viewer">
+&lt;div class="arrow left">&lt;/div>
+&lt;div class="arrow right">&lt;/div>
+&lt;img id="photo-viewer-img" />
+&lt;button id="photo-viewer-close">&amp;times;&lt;/button>
+&lt;/div>
+&lt;script>
+const images = ["https://lostnatsu.com/myimgs/onewaslookingatanother/003879910028.jpg","https://lostnatsu.com/myimgs/onewaslookingatanother/003879910030.jpg","https://lostnatsu.com/myimgs/onewaslookingatanother/003879920004.jpg","https://lostnatsu.com/myimgs/onewaslookingatanother/003879920014.jpg","https://lostnatsu.com/myimgs/onewaslookingatanother/003879920018.jpg","https://lostnatsu.com/myimgs/onewaslookingatanother/003879920028.jpg","https://lostnatsu.com/myimgs/onewaslookingatanother/003879930070-2.jpg","https://lostnatsu.com/myimgs/onewaslookingatanother/0575669_0575669-R1-E019.jpg","https://lostnatsu.com/myimgs/onewaslookingatanother/IMG_0200-2.jpg"];
+let currentIndex = 0;
+const photoViewer = document.getElementById('photo-viewer');
+const photoViewerImg = document.getElementById('photo-viewer-img');
+const closeBtn = document.getElementById('photo-viewer-close');
+const photoViewerBtn = document.getElementById('photo-viewer-btn');
+const arrowLeft = photoViewer.querySelector('.arrow.left');
+const arrowRight = photoViewer.querySelector('.arrow.right');
+function showImage(index) {
+if (index >= 0 &amp;&amp; index &lt; images.length) {
+currentIndex = index;
+photoViewerImg.src = images[currentIndex];
+}
+}
+let controlsTimeout;
+function showControls() {
+photoViewer.classList.add('show-controls');
+clearTimeout(controlsTimeout);
+controlsTimeout = setTimeout(() => {
+photoViewer.classList.remove('show-controls');
+}, 1500);
+}
+arrowLeft.addEventListener('click', () => {
+showImage((currentIndex - 1 + images.length) % images.length);
+});
+arrowRight.addEventListener('click', () => {
+showImage((currentIndex + 1) % images.length);
+});
+closeBtn.addEventListener('click', () => {
+photoViewer.style.display = 'none';
+});
+document.addEventListener('keydown', (event) => {
+if (photoViewer.style.display === 'block') {
+if (event.key === 'ArrowRight') {
+showImage((currentIndex + 1) % images.length);
+} else if (event.key === 'ArrowLeft') {
+showImage((currentIndex - 1 + images.length) % images.length);
+} else if (event.key === 'Escape') {
+photoViewer.style.display = 'none';
+}
+}
+});
+photoViewerBtn.addEventListener('click', () => {
+photoViewer.style.display = 'block';
+showImage(0);
+showControls();
+});
+document.querySelectorAll('.album-image').forEach((img, index) => {
+img.addEventListener('click', () => {
+photoViewer.style.display = 'block';
+showImage(index);
+showControls();
+});
+});
+photoViewer.addEventListener('mousemove', showControls);
+let touchStartX = 0;
+let touchStartY = 0;
+let touchEndX = 0;
+let touchEndY = 0;
+photoViewer.addEventListener('touchstart', (e) => {
+const touch = e.changedTouches[0];
+touchStartX = touch.pageX;
+touchStartY = touch.pageY;
+});
+photoViewer.addEventListener('touchmove', (e) => {
+const touch = e.changedTouches[0];
+touchEndX = touch.pageX;
+touchEndY = touch.pageY;
+});
+photoViewer.addEventListener('touchend', () => {
+const diffX = touchEndX - touchStartX;
+const diffY = touchEndY - touchStartY;
+if (Math.abs(diffX) > Math.abs(diffY)) {
+if (diffX &lt; 0) {
+showImage((currentIndex + 1) % images.length);
+} else {
+showImage((currentIndex - 1 + images.length) % images.length);
+}
+} else {
+if (diffY > 50) {
+photoViewer.style.display = 'none';
+}
+}
+});
+&lt;/script></description></item><item><title>在空中</title><link>https://lostnatsu.com/posts/%E5%9C%A8%E7%A9%BA%E4%B8%AD/</link><pubDate>Sun, 15 Dec 2024 12:46:16 -0800</pubDate><guid>https://lostnatsu.com/posts/%E5%9C%A8%E7%A9%BA%E4%B8%AD/</guid><description>&lt;p>我意识到我有一个超能力：我能很容易地从自然中汲取力量。这可能极具成瘾性，或许也就是我没办法宅家太久的原因？&lt;/p>
 &lt;p>时间流逝，万物生长或者凋零。每次走在街上都会有不同的感受。我经常先注意到一点什么，被震撼到，接着就是得到力量。没有理由，就是很开心。还有时候我也会继续想象点什么，把代入其中。&lt;/p>
 &lt;p>刚才又看到了不同寻常的景色：在冬天雨夜里，机翼顶端有一颗暖白色小灯常亮。飞机平缓有力地从雾色中起飞，待到地面灯光消失，无尽黑暗袭来。然而就这么一颗灯泡冲上云霄，刺破云层，点燃了一片天空。我已然坠入名为天空的海，转头就可以看到深邃夜空渐渐转成海蓝、橙黄、再过渡成火。阴云也变成柔软地毯被我们踩在脚下，天边还有几个调皮鬼飘得更高，变成点缀。&lt;/p>
 &lt;p>这时候请想象着你的手可以伸出窗外，触摸流行的云，丝缕凉意穿过指缝。或者想象漂浮在空中享受无垠的纯净。
